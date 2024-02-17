@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Caixa</title>
+    <style>
+        h1, a { /*box level */
+            border: 15px solid darkslategray;
+            padding: 50px;
+            margin: 10px auto 40px auto;
+            outline: 10px dashed salmon;
+        }
+
+        h1 {
+            
+            background-color: rgb(55, 183, 187);
+            height: 300px;
+            width: 300px;
+        }
+
+        a {
+            display: block;
+            border-width: 15px;
+            border-style: solid;
+            border-color: red;
+
+        }
+        p {
+            font-size: 0.8em; /* Reduz o tamanho da fonte do parágrafo */
+            text-align: right; /* Alinha o texto à direita */
+            margin-right: 50px; /* Distancia o parágrafo do lado direito */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa Box Level</h1>
+    <p>Parágrafos também são exemplos de box-level. 
+        <a href="#">Os links também são exemplos de caixas.</a> 
+        Vamos ver como tudo isso funciona.
+    </p>
+</body>
+</html>
