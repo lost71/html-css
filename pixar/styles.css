@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.pixar-animation {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.pixar-animation.active {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
